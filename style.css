@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: open sans, lato, sans-serif;
+  text-transform: uppercase;
+  overflow-y: hidden;
+  background: url("ref/4.jpg") center center;
+  background-size: cover; }
+
+.container {
+  height: 100vh; }
+
+.center {
+  position: relative;
+  height: 100%; }
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  color: #f8f8f8;
+  letter-spacing: 1px; }
+
+.inner {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 500px;
+  height: 300px;
+  line-height: 1.2;
+  margin: 0 auto;
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+  padding-top: 80px;
+  text-shadow: 0px 0px 1px #999; }
+  @media (max-width: 640px) {
+    .inner {
+      line-height: 1.5; } }
+  .inner .its, .inner .dateNum, .inner .at, .inner .ampm {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px; }
+  .inner .dayName, .inner .monthName, .inner .time {
+    opacity: .9;
+    font-size: 42px;
+    font-weight: 600; }
+    @media (max-width: 640px) {
+      .inner .dayName, .inner .monthName, .inner .time {
+        font-size: 34px; } }
